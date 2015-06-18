@@ -1,0 +1,31 @@
+{
+  "name": "angular-amf",
+  "version": "1.0.0",
+  "description": "Implementation of amfjs for AngularJs",
+  "author": "Jose Ignacio Hita Barraza <ignaciohita@gmail.com>",
+  "contributors": [
+    {
+      "name": "Jose Ignacio Hita Barraza",
+      "email": "ignaciohita@gmail.com"
+    }
+  ],
+  "scripts": {
+    "publish": "gulp build"
+  },
+  "main": "angular.amf.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ignaciohita/angular-amf.git"
+  },
+  "keywords": [
+    "amf angular web services"
+  ],
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0"
+  },
+  "preferGlobal": true,
+  "private": false,
+  "license": "MIT"
+}

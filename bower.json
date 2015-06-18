@@ -1,0 +1,27 @@
+{
+    "name": "angular-amf",
+    "version": "1.0.0",
+    "homepage": "https://github.com/ignaciohita/angular-amf",
+    "authors": [
+    "ignaciohita <ignaciohita@gmail.com>"
+  ],
+    "description": "Implementation of amfjs for AngularJs",
+    "main": "angular.amf.js",
+    "moduleType": [
+    "globals"
+  ],
+    "keywords": [
+    "amf",
+    "angular",
+    "web",
+    "services"
+  ],
+    "license": "MIT",
+    "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
