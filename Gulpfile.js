@@ -12,12 +12,12 @@ gulp.task("build", function () {
             suffix: ".min"
         }))
         .pipe(uglify())
-        .pipe(gulp.dest("/"));
+        .pipe(gulp.dest("."));
 
     gulp.src("./angular.amf.js")
         .pipe(rename({
             suffix: ".min"
         }))
         .pipe(uglify())
-        .pipe(gulp.dest("/"));
+        .pipe(gulp.dest("."));
 });
